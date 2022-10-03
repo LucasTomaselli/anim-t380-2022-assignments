@@ -26,8 +26,9 @@ for x in range(len(files)):
 
     print("Reducing...")
     cmds.polyReduce(percentage = percentReduct, kqw = 1, triangulate = 0)
-    
+
     cmds.file(save=True, type="mayaAscii")
+    print("File Saved!")
 
 
 
