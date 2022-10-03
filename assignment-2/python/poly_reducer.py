@@ -5,7 +5,7 @@ maya.standalone.initialize()
 
 import maya.cmds as cmds
 
-parser = argparse.ArgumentParser(description='This script creates a bunch of cubes.')
+parser = argparse.ArgumentParser(description='This script reduces polycount of a mesh within a .ma file.')
 parser.add_argument('folder_path', type=str, help="This is the folder that contains all your .ma files")
 parser.add_argument('reduction_percentage', type=float, help="This is the percentage of poly reduction")
 
