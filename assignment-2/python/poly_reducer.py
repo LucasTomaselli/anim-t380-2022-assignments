@@ -18,9 +18,9 @@ print(len(files))
 
 for x in range(len(files)):
 
-    print("Importing file:", x)
+    print("Importing file:", files[x])
 
-    cmds.file(filePaths.joinpath(f'{str(x)}.ma') , o=True)    
+    cmds.file(filePaths.joinpath(f'{str(files[x])}') , o=True)    
 
     cmds.select(all=True)
 

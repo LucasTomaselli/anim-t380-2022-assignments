@@ -1,4 +1,4 @@
-This script opens maya files in a given folder and runs the a polygon reduction operation on the mesh that each file contains. This script currently only runs if the maya file contains a single mesh and if the maya files are named with integer values starting from 0.
+This script opens maya files in a given folder and runs the a polygon reduction operation on the mesh that each file contains. This script currently only runs if the maya file contains a single mesh.
 
 The script takes two arguments. The first is a string argument which points to the folder where the user stores their maya files and the second is an float which determines what percentage of polygon reduction occurs on the mesh.
 
