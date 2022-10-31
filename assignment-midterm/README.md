@@ -5,7 +5,7 @@ This scripts creates a maya file and a camera within it that is selected from a 
 
 ## Arguments
 The arguments taken by this script are as follows:
-- `-h` :   This is reccomened before each use as it displays top the user all the possible shots that they can choose from.
+- `-h` :   This is recommened before each use as it displays top the user all the possible shots that they can choose from.
 - `shot_num` : Type: int, This value is the shot number that the user would like to select.
 
 ## Example
