@@ -1,7 +1,7 @@
 ## Description
 **Problem 4:**
 This scripts creates a maya file and a camera within it that is selected from a CSV list of shots. The camera will and maya file will be named according to the shot name and the focal length and filmback size will be set from the CSV file.
-**Extra Credit Feature** A framing chart image plane is added the camera and a test image is rendered. 
+**Extra Credit Feature:** A framing chart image plane is added the camera and a test image is rendered. 
 
 ## Arguments
 The arguments taken by this script are as follows:
